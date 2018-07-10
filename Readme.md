@@ -58,3 +58,7 @@ const createJSON = (colHeaders, array) => {
     fs.writeFileSync(jsonFilePath, JSON.stringify(res, null, '\t'))
 }
 ```
+
+### 4. Testing
+
+I checked there were 1000 new records in the JSON file, with the spected structure and analyzing there were no repeated records
